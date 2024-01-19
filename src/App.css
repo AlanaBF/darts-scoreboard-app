@@ -1,0 +1,149 @@
+/* Page Layout */
+
+body {
+  font-family: "Rubik Doodle Shadow";
+  margin: 0;
+  padding: 0;
+  border: #2a9d8f 20px solid;
+}
+
+.page-background {
+  background-color: #e9c46a;
+  color: #264653;
+  margin: 0;
+  padding: 0;
+  min-height: 97vh;
+}
+
+/* Header */
+
+.jumbotron {
+  display: flex;
+}
+
+.title {
+  font-size: 5em;
+  margin: auto;
+  padding: 0;
+  color: #2a9d8f;
+  display: flex;
+  align-items: center;
+}
+
+.darts-logo {
+  width: 30%;
+  height: 30%;
+}
+
+/* Score Card */
+
+.score-table-title {
+  font-size: 4em;
+  margin: auto;
+  color: #2a9d8f;
+  text-align: center;
+  padding: 10px;
+}
+
+.current-player {
+  font-size: 2em;
+  margin: auto;
+  padding: 0 100px;
+  color: #2a9d8f;
+  display: flex;
+  align-items: center;
+}
+
+.dart {
+  width: 100px;
+  display: flex;
+  margin: auto;
+}
+
+.table {
+  padding: 50px;
+}
+/* Apply styles to the table */
+.styled-table {
+  width: 90%; /* Make the table take 100% of its container */
+  border-collapse: collapse; /* Collapse borders to avoid double borders */
+  margin: auto;
+}
+
+/* Style table headers */
+.styled-table th {
+  border: 5px solid #264653; /* Add a border to table headers */
+  padding: 8px; /* Add padding to header cells */
+  text-align: center; /* Center-align text in header cells */
+  font-size: 3em;
+}
+
+/* Style table cells */
+.styled-table td {
+  border: 5px solid #264653; /* Add a border to table cells */
+  padding: 8px; /* Add padding to cells */
+  text-align: center; /* Center-align text in cells */
+  font-size: 3em;
+}
+
+.game-type-label {
+  padding: 20px;
+}
+
+.game-type-label {
+  background-color: #2a9d8f;
+  border: solid 5px #292b2c;
+  border-radius: 10px;
+  margin: 20px 20px 20px 20px;
+  color: white;
+}
+
+.dart-label {
+  padding: 20px;
+}
+
+.dart-label input {
+  width: 80px; /* Set your desired width */
+  padding: 10px; /* Set your desired padding */
+  margin-right: 10px; /* Add margin between input fields if needed */
+}
+
+.dartscores-modal {
+  margin: 20px;
+}
+
+.scoreboard-container {
+  text-align: center;
+}
+
+.jumbotron {
+  align-items: center;
+  justify-content: center;
+}
+
+.win-modal {
+  padding: 20px;
+}
+
+.calculate-btn {
+  padding: 20px;
+  margin: 20px;
+}
+
+.scoreboard-display {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  padding: 50px;
+}
+
+.player-1,
+.player-2 {
+  width: 45%; /* Adjust as needed */
+  text-align: center;
+  border: 5px solid #264653; /* Add borders between scoreboards */
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  box-sizing: border-box; /* Include padding and border in the width calculation */
+}

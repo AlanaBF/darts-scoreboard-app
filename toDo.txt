@@ -1,0 +1,12 @@
+Check the checkout.json scores as these are not all correct
+
+Add a button or counter depedning on whose go it is
+
+save scores
+
+have a new game button that resets all scores
+
+have a way to show how many darts have been thrown, the previous score
+
+build in legs and sets
+
