@@ -1,5 +1,13 @@
 /* Page Layout */
 
+.development-div {
+  background-color: #292b2c;
+  color: red;
+  align-items: center;
+  text-align: center;
+  padding: 50px;
+}
+
 body {
   font-family: "Rubik Doodle Shadow";
   margin: 0;
